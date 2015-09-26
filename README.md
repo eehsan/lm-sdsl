@@ -1,4 +1,14 @@
 # Welcome to LM-SDSL
+This is our implementation used in the following paper:
+
+```
+@inproceedings{shareghicompact,
+  author={Shareghi, Ehsan and Petri, Matthias and Haffari, Gholamreza and Cohn, Trevor},
+  title={Compact, Efficient and Unlimited Capacity: Language Modeling with Compressed Suffix Trees},
+  booktitle={Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing, 2015, September 19-21, 2015, Lisbon, Portugal},
+  year={2015},
+}
+```
 
 # compile instructions
 
