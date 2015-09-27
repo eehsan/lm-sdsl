@@ -10,7 +10,7 @@ This is our implementation used in the following paper:
 }
 ```
 
-# compile instructions
+# Compile instructions
 
 1. Check out reprository
 2. `git submodule init`
@@ -18,7 +18,7 @@ This is our implementation used in the following paper:
 4. `cd build`
 5. `cmake ..`
 
-# usage
+# Usage
 
 Create a collection:
 
@@ -38,9 +38,9 @@ Query index
 ./query-index-knm.x -c ../collections/toy/ -p toyquery.txt -n 3
 ```
 
-# Single CST
+# Single CST method
 
-To call the single CST method, pass -b:
+The default is the Dual CST. To call the faster and more space efficient version, Single CST method, pass -b:
 
 ```
 ./query-index-knm.x -c ../collections/toy/ -p toyquery.txt -n 3 -b
