@@ -1,4 +1,7 @@
-# Welcome to LM-SDSL
+# For the faster and lateset version (supporting Modified Kneser-Ney and its extensions) please see: 
+https://github.com/eehsan/cstlm
+
+## Welcome to LM-SDSL
 This is our implementation used in the following paper:
 
 ```
@@ -10,7 +13,7 @@ This is our implementation used in the following paper:
 }
 ```
 
-# Compile instructions
+## Compile instructions
 
 1. Check out reprository
 2. `git submodule init`
@@ -18,7 +21,7 @@ This is our implementation used in the following paper:
 4. `cd build`
 5. `cmake ..`
 
-# Usage
+## Usage
 
 Create a collection:
 
@@ -38,7 +41,7 @@ Query index:
 ./query-index-knm.x -c ../collections/toy/ -p toyquery.txt -n 3
 ```
 
-# Single CST method
+## Single CST method
 
 The default is the Dual CST. To call the faster and more space efficient version, Single CST method, pass -b:
 
@@ -46,7 +49,7 @@ The default is the Dual CST. To call the faster and more space efficient version
 ./query-index-knm.x -c ../collections/toy/ -p toyquery.txt -n 3 -b
 ```
 
-## Running unit tests ##
+### Running unit tests ##
 
 ```
 rm -r ../collections/unittest/
