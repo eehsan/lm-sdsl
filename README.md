@@ -57,3 +57,4 @@ rm -r ../collections/unittest/
 ./unit-test.x 
 ```
 
+### Note: This version requires the training and test data to be numberized.
